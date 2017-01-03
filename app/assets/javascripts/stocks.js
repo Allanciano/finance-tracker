@@ -22,7 +22,7 @@ init_stock_lookup = function () {
 
 
 
-$(document).ready(function () {
+$( document ).on('turbolinks:load', function() {
     init_stock_lookup();
     
 })
